@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #d0d1d3;
+    background: url(https://media.istockphoto.com/id/993164128/de/foto/dunkel-blaue-tafel.jpg?s=2048x2048&w=is&k=20&c=4Jb3vRW_UMHq9u4qIHoRkjiJxcxpNSCY1bEY0ZH6idQ=) top no-repeat;
+    background-size: auto;
+}
+
+h1 {
+    color: #c6be94;
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;    
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links{
+    margin-bottom: 50px;
+}
+
+footer .links >a {
+    color: #636b6f;
+    padding: 0px 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
